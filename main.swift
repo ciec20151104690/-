@@ -8,9 +8,9 @@
 
 import Foundation
 let base=1
-
+let p=100
 var answer = 1
-for _ in 1...100{
+for _ in 1...p{
     answer=answer+base
 }
 print("\(answer)")
